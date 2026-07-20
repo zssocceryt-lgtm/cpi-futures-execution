@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Raw data: not committed — see data/README.md for how to obtain it.
+# (Deliberately NOT ignoring results/ — figures and tables there are
+# small, git-friendly, and are what make the repo browsable on GitHub
+# without cloning + rerunning. See README.md "Project structure".)
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
